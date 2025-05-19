@@ -31,6 +31,30 @@ Verilogで組んだニューラルネットのコードは難解なので、ダ�
 Verilogで書かれたコード.vファイルのインデント（字下げ）が見づらいのでブラウザのURL欄の文末に「?ts=3」をつけると
 空白が揃うようになります。
 
+ソースコードのフォルダの説明
+
+connectKey3x3.v　押しボタンスイッチのキーボードの回路です
+connectSDRAM.v　　SDRAMのコントローラーです。特別に高速化したもので一般の使用には不向きです
+connectSPI01.v　　SPI通信のコントローラーです。自作しました
+connectVGA.v　　　VGA表示回路です。VGAと接続するためのラダー抵抗が必要になります
+imageDraw784.v　　描画モジュールです
+memoryM9K.v　　　　エンベデッド・メモリー（M9K）の読み書き
+memoryM9K100W.v　　エンベデッド・メモリー（M9K）のニューラルネットの1段目だったかな....
+memoryM9K10W.v　　　エンベデッド・メモリー（M9K）のニューラルネットの3段目だったか....
+memoryM9K50W.v　　　エンベデッド・メモリー（M9K）のニューラルネットの2段目だったかも....
+memoryM9Kdual.v　　　エンベデッド・メモリー（M9K）の何か
+procMemory01.v　　　　メモリの操作全般
+receiveDataConv.v　　　受信モジュール
+testNeuralNet01.v　　　メイン処理です
+textDraw02.v　　　　　　画面の描画をします
+textDraw03.v　　　　　　画面の描画をします
+testNeuralNet01.qpf　　プロジェクトファイル
+testNeuralNet01.qsf　　プロジェクトの設定ファイル
+testNeuralNet01.qws　　プロジェクトのウインドウ情報（いらないかも）
+testNeuralNet01.sdc　　プロジェクトのタイミング制約用ファイル
+txt　　テキスト表示のフォントデーターです。自作しました
+
+
 VGA output.
 !["picture"](vga20250519a.jpg)
 
