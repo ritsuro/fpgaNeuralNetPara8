@@ -30,8 +30,12 @@ Verilogで組んだニューラルネットのコードは難解なので、ダ�
 
 Verilogで書かれたコード.vファイルのインデント（字下げ）が見づらいのでブラウザのURL欄の文末に「?ts=3」をつけると
 空白が揃うようになります。  
-
-ソースコードのフォルダの説明  
+例 
+https://github.com/ritsuro/fpgaNeuralNetPara8/blob/main/testNeuralNet01para8_rev05_4992test/connectSPI01.v?ts=3  
+  
+  
+《ソースコードのフォルダの説明》  
+  
 connectKey3x3.v　押しボタンスイッチのキーボードの回路です  
 connectSDRAM.v　　SDRAMのコントローラーです。特別に高速化したもので一般の使用には不向きです  
 connectSPI01.v　　SPI通信のコントローラーです。自作しました  
