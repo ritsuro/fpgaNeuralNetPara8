@@ -28,11 +28,7 @@ DRAM制御はバーストモードを使っているので、最速に近いと�
 
 Verilogで組んだニューラルネットのコードは難解なので、ダイアグラム（図）も用意しました。
 
-Verilogで書かれたコード.vファイルのインデント（字下げ）が見づらいのでブラウザのURL欄の文末に「?ts=3」をつけると
-空白が揃うようになります。  
-例 
-https://github.com/ritsuro/fpgaNeuralNetPara8/blob/main/testNeuralNet01para8_rev05_4992test/connectSPI01.v?ts=3  
-  
+Verilogで書かれたコード.vファイルのインデント（字下げ）を editorconfig でタブ=3に設定しました。
   
 《ソースコードのフォルダの説明》  
   
